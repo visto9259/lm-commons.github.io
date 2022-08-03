@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklm_commons=self.webpackChunklm_commons||[]).push([[8065],{1186:a=>{a.exports=JSON.parse('{"label":"laminas","permalink":"/blog/tags/laminas","allTagsPath":"/blog/tags","count":1}')}}]);

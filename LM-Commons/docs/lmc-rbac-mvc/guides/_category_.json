@@ -1,8 +1,0 @@
-{
-  "label": "Guides",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Welcome to the official LmcRbacMvc documentation. This documentation will help you quickly understand how to use and extend LmcRbacMvc."
-  }
-}
