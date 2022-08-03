@@ -1,0 +1,8 @@
+{
+  "label": "LmcUser",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A generic user registration and authentication module for Laminas. Supports Laminas\\Db and Doctrine2."
+  }
+}
