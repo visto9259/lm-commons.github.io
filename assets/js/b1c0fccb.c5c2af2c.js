@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklm_commons=self.webpackChunklm_commons||[]).push([[5183],{3272:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/laminas","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

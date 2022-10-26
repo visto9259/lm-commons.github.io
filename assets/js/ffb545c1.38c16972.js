@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklm_commons=self.webpackChunklm_commons||[]).push([[8680],{2976:s=>{s.exports=JSON.parse('{"label":"bootstrap","permalink":"/blog/tags/bootstrap","allTagsPath":"/blog/tags","count":1}')}}]);

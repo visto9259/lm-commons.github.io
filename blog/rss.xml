@@ -4,10 +4,21 @@
         <title>LM-Commons Blog</title>
         <link>https://lm-commons.github.io/blog</link>
         <description>LM-Commons Blog</description>
-        <lastBuildDate>Tue, 02 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[LmcBootstrapMenu v1.0.0. is available]]></title>
+            <link>https://lm-commons.github.io/blog/lmcbootstrapmenu-release-v1.0.0</link>
+            <guid>lmcbootstrapmenu-release-v1.0.0</guid>
+            <pubDate>Mon, 24 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[LmcBootstrapMenu is a new LM-Commons package that provides a Bootstrap menu helper.]]></description>
+            <content:encoded><![CDATA[<p>LmcBootstrapMenu is a new LM-Commons package that provides a Bootstrap menu helper.</p><p>The repository is available on GitHub <a href="https://github.com/LM-Commons/LmcBootstrapMenu" target="_blank" rel="noopener noreferrer">LM-Commons/LmcBootstrapMenu</a>.</p><p>It is also available on Packagist via Composer.  Please see installation instructions in the <code>README.md</code> file in the GitHub repository.</p>]]></content:encoded>
+            <category>laminas</category>
+            <category>PHP</category>
+            <category>bootstrap</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://lm-commons.github.io/blog/welcome</link>
