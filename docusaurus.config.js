@@ -96,7 +96,7 @@ const config = {
               },
               {
                 label: 'LmcRbacMvc',
-                to: 'https://lm-commons.github.io/LmcRbacMvc/',
+                to: 'https://lm-commons.github.io/lmc-rbac-mvc/',
               },
               {
                 label: 'LmcRbac',
