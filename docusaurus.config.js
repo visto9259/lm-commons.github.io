@@ -76,6 +76,37 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {
+            type: 'dropdown',
+            label: 'Packages',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'lmcUser',
+                label: 'LmcUser'
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'lmcRbacMvc',
+                label: 'LmcRbacMvc'
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'lmcCors',
+                label: 'LmcCors'
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'lmcRbac',
+                label: 'LmcRbac'
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'lmcMail',
+                label: 'LmcMail'
+              },
+            ]
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/lm-commons',
