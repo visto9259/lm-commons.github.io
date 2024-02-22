@@ -72,10 +72,11 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'mainSidebar',
             position: 'left',
             label: 'Docs',
           },
+          /*
           {
             type: 'dropdown',
             label: 'Packages',
@@ -86,8 +87,9 @@ const config = {
                 label: 'LmcUser'
               },
               {
-                type: 'docSidebar',
-                sidebarId: 'lmcRbacMvc',
+//                type: 'docSidebar',
+//                sidebarId: 'lmcRbacMvc',
+                to: '/docs/LmcRbacMvc',
                 label: 'LmcRbacMvc'
               },
               {
@@ -107,6 +109,8 @@ const config = {
               },
             ]
           },
+
+           */
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/lm-commons',
@@ -127,7 +131,7 @@ const config = {
               },
               {
                 label: 'LmcRbacMvc',
-                to: 'https://lm-commons.github.io/lmc-rbac-mvc/',
+                to: 'https://lm-commons.github.io/LmcRbacMvc/',
               },
               {
                 label: 'LmcRbac',
