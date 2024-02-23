@@ -151,6 +151,10 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Discord',
+                href: 'https://discord.gg/T8vJ3ukPm7',
+              },
+              {
                 label: 'Gitter',
                 href: 'https://gitter.im/LM-Commons/community',
               },
