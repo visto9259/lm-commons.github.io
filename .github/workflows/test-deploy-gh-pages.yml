@@ -1,13 +1,13 @@
-name: Build GitHub Pages on PRs No Deploy
+name: Build GitHub Pages No Deploy
 
 defaults:
   run:
     shell: bash
     working-directory: ./docs
 
-on: pull_request
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+on:
+  pull_request:
+  push:
 
 jobs:
   test-deploy:
