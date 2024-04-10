@@ -76,42 +76,25 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          /*
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
           {
             type: 'dropdown',
             label: 'Packages',
             items: [
               {
-                type: 'docSidebar',
-                sidebarId: 'lmcUser',
-                label: 'LmcUser'
-              },
-              {
-//                type: 'docSidebar',
-//                sidebarId: 'lmcRbacMvc',
-                to: '/docs/LmcRbacMvc',
-                label: 'LmcRbacMvc'
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'lmcCors',
+                href: 'https://lm-commons.github.io/LmcCors/',
                 label: 'LmcCors'
               },
               {
-                type: 'docSidebar',
-                sidebarId: 'lmcRbac',
-                label: 'LmcRbac'
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'lmcMail',
-                label: 'LmcMail'
+                href: 'https://lm-commons.github.io/LmcRbacMvc/',
+                label: 'LmcRbacMvc'
               },
             ]
           },
-
-           */
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/lm-commons',
             label: 'GitHub',
@@ -139,7 +122,7 @@ const config = {
               },
               {
                 label: 'LmcCors',
-                to: '/docs/lmc-cors/introduction',
+                to: 'https://lm-commons.github.io/LmcCors/',
               },
               {
                 label: 'LmcMail',
@@ -181,7 +164,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} LM Commons Organization. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} LM-Commons Organization. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
