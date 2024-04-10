@@ -64,9 +64,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/LMC-social-card.jpg',
       navbar: {
-        title: 'LM Commons',
+        title: 'LM-Commons',
         logo: {
-          alt: 'LM Commons Logo',
+          alt: 'LM-Commons Logo',
           src: 'img/LMC-logo.png',
         },
         items: [
@@ -142,6 +142,10 @@ const config = {
                 to: '/docs/lmc-cors/introduction',
               },
               {
+                label: 'LmcMail',
+                to: '/docs/lmc-mail/introduction',
+              },
+              {
                 label: 'LmcAdmin',
                 to: '/docs/lmc-admin/introduction',
               },
@@ -151,13 +155,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/T8vJ3ukPm7',
+                label: 'Slack',
+                href: 'https://join.slack.com/t/lm-commons/shared_invite/zt-2gankt2wj-FTS45hp1W~JEj1tWvDsUHQ',
               },
+              /*
               {
                 label: 'Gitter',
                 href: 'https://gitter.im/LM-Commons/community',
               },
+
+               */
             ],
           },
           {
