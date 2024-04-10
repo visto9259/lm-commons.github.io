@@ -1,8 +1,0 @@
-{
-  "label": "LmcCors",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "LmcCors is a simple Laminas MVC module that helps you to deal with Cross-Origin Resource Sharing (CORS)."
-  }
-}
