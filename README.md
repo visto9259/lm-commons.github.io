@@ -45,6 +45,8 @@ without having to restart the server.
 
 A GitHub action is define to test builds. It will run on push to your fork.
 
+You may have to enable workflows on you fork before they are run.
+
 ## Submit changes
 
 Once you are satisfied with your changes and the `Build GitHub Pages No Deploy` action has
