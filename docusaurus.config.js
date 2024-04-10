@@ -143,7 +143,7 @@ const config = {
               },
               {
                 label: 'LmcMail',
-                to: '/docs/lmc-mail/introduction',
+                to: '/docs/lmc-mail/Introduction',
               },
               {
                 label: 'LmcAdmin',
