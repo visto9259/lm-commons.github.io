@@ -37,7 +37,10 @@ return [
     ],
 ];
 ```
-In a development environment, it is typical to use a File Mail Transport.  In a production environment, an SMTP Mail Transport will more likely be used.
+In a production environment, an SMTP Mail Transport will more likely be used.
+
+In a development environment, it is typical to use a File Mail Transport to write message to files to validate the
+rendered output.
 
 The `'transport'` configuration must comply with the `Laminas\Mail\Transport\Factory\Factory::create` method.
 

@@ -9,7 +9,7 @@ $messageService = $serviceManager->get(LmcMail\Service\MessageService::class);
 
 Basic example to send an HTML email:
 
-````php
+```php
 $viewModel = new \Laminas\View\Model\ViewModel();
 $viewModel->setTemplate('mail/html');
 $message = $messageService->createHtmlMessage(
@@ -19,7 +19,7 @@ $message = $messageService->createHtmlMessage(
     $viewModel); // View model
 
 $messageService->send($message);
-````
+```
 
 The `'mail/html'` template must exist in the application's view template map. The HTML mail renderer will use
 a layout template aliased as `'mail/layout'` in the view template map. This is defined in the `module.config.php` file.
