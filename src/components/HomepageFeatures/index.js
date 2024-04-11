@@ -1,7 +1,70 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
+const PackageList = [
+  {
+    title: 'LmcUser',
+    description: (
+      <>
+        LmcUser is a user registration and authentication module for Laminas. LmcUser provides the foundations for
+        adding user authentication and registration to your Laminas site. It is designed to be very simple and easy
+        to extend.
+      </>
+    ),
+    href: 'https://lm-commons.github.io/LmcUser/',
+  },
+  {
+    title: 'LmcCors',
+    description: (
+      <>
+        LmcCors is a simple Laminas MVC module that helps you to deal with Cross-Origin Resource Sharing (CORS).
+      </>
+    ),
+    href: 'https://lm-commons.github.io/LmcCors/',
+  },
+  {
+    title: 'LmcRbacMvc',
+    description: (
+      <>
+        LmcRbacMvc is a role-based access control Laminas MVC module to provide additional
+        features on top of Laminas\Permissions\Rbac
+      </>
+    ),
+    href: 'https://lm-commons.github.io/LmcRbacMvc/',
+  },
+  {
+    title: 'LmcMail',
+    description: (
+      <>
+        LmcMail is an email service module that provides the ability to use the View Manager of a Laminas MVC
+        application and the installed View Helper plugins to render HTML emails.
+      </>
+    ),
+    href: 'https://lm-commons.github.io/LmcMail/',
+  },
+  {
+    title: 'LmcRbac',
+    description: (
+      <>
+        Role-based access control module to provide additional features on top of Zend\Permissions\Rbac
+      </>
+    ),
+    href: '/docs/lmc-rbac/introduction',
+  },
+  {
+    title: 'LmcAdmin',
+    description: (
+      <>
+        LmcAdmin Module for Laminas Framework
+      </>
+    ),
+    href: '/docs/lmc-admin/introduction',
+  },
+];
+
+/*
 const FeatureList = [
   {
     title: 'Easy to Use',
@@ -35,6 +98,9 @@ const FeatureList = [
   },
 ];
 
+ */
+
+/*
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
@@ -48,17 +114,57 @@ function Feature({Svg, title, description}) {
     </div>
   );
 }
+*/
+
+function Package({title, description, href}) {
+  return (
+    <div className={clsx('col col--4 margin-top--md')}>
+      <div className="text--center padding-horiz--md">
+        <Heading as="h3">{title}</Heading>
+        <p>{description}</p>
+      </div>
+      <div className={styles.buttons}>
+        <Link className="button button--primary"
+              to={href}>
+          Documentation
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+function PackageCard({title, description, href}) {
+  return (
+    <div className={clsx('card-demo col col--4 margin-bottom--md')}>
+      <div className="card shadow--md ">
+        <div className="card__header text--center">
+          <Heading as='h3'>{title}</Heading>
+        </div>
+        <div className="card__body">
+          <p>
+            {description}
+          </p>
+        </div>
+        <div className="card__footer">
+          <div className={styles.buttons}>
+            <Link className="button button--primary" to={href}>Documentation</Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {PackageList.map((props, idx) => (
             <>
-            {/*}
-            <Feature key={idx} {...props} />
-            {*/}
+
+            <PackageCard key={idx} {...props} />
+
             </>
           ))}
         </div>

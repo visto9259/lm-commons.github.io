@@ -93,6 +93,10 @@ const config = {
                 href: 'https://lm-commons.github.io/LmcRbacMvc/',
                 label: 'LmcRbacMvc'
               },
+              {
+                href: 'https://lm-commons.github.io/LmcMail/',
+                label: 'LmcMail'
+              },
             ]
           },
           {
@@ -105,6 +109,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [
+          /*
           {
             title: 'Packages',
             items: [
@@ -126,7 +131,7 @@ const config = {
               },
               {
                 label: 'LmcMail',
-                to: '/docs/lmc-mail/Introduction',
+                to: 'https://lm-commons.github.io/LmcMail/',
               },
               {
                 label: 'LmcAdmin',
@@ -134,6 +139,8 @@ const config = {
               },
             ],
           },
+
+           */
           {
             title: 'Community',
             items: [
