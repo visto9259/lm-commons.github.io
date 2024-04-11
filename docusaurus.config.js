@@ -94,6 +94,10 @@ const config = {
                 label: 'LmcRbacMvc'
               },
               {
+                href: 'https://lm-commons.github.io/LmcUser/',
+                label: 'LmcUser'
+              },
+              {
                 href: 'https://lm-commons.github.io/LmcMail/',
                 label: 'LmcMail'
               },
@@ -109,38 +113,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          /*
-          {
-            title: 'Packages',
-            items: [
-              {
-                label: 'LmcUser',
-                to: '/docs/lmc-user/introduction',
-              },
-              {
-                label: 'LmcRbacMvc',
-                to: 'https://lm-commons.github.io/LmcRbacMvc/',
-              },
-              {
-                label: 'LmcRbac',
-                to: '/docs/lmc-rbac/introduction',
-              },
-              {
-                label: 'LmcCors',
-                to: 'https://lm-commons.github.io/LmcCors/',
-              },
-              {
-                label: 'LmcMail',
-                to: 'https://lm-commons.github.io/LmcMail/',
-              },
-              {
-                label: 'LmcAdmin',
-                to: '/docs/lmc-admin/introduction',
-              },
-            ],
-          },
-
-           */
           {
             title: 'Community',
             items: [
@@ -148,13 +120,6 @@ const config = {
                 label: 'Slack',
                 href: 'https://join.slack.com/t/lm-commons/shared_invite/zt-2gankt2wj-FTS45hp1W~JEj1tWvDsUHQ',
               },
-              /*
-              {
-                label: 'Gitter',
-                href: 'https://gitter.im/LM-Commons/community',
-              },
-
-               */
             ],
           },
           {
@@ -170,6 +135,15 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Other',
+            items: [
+              {
+                label: 'Disclaimer',
+                to: 'disclaimer',
+              }
+            ],
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} LM-Commons Organization. Built with Docusaurus.`,
       },
