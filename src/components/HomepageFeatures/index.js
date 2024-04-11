@@ -51,7 +51,7 @@ const PackageList = [
         Role-based access control module to provide additional features on top of Zend\Permissions\Rbac
       </>
     ),
-    href: '/docs/lmc-rbac/introduction',
+    href: 'https://lm-commons.github.io/LmcRbac/',
   },
   {
     title: 'LmcAdmin',
@@ -60,7 +60,7 @@ const PackageList = [
         LmcAdmin Module for Laminas Framework
       </>
     ),
-    href: '/docs/lmc-admin/introduction',
+    href: '/docs/packages/lmc-admin/introduction',
   },
 ];
 
@@ -116,6 +116,7 @@ function Feature({Svg, title, description}) {
 }
 */
 
+/*
 function Package({title, description, href}) {
   return (
     <div className={clsx('col col--4 margin-top--md')}>
@@ -132,6 +133,8 @@ function Package({title, description, href}) {
     </div>
   );
 }
+
+ */
 
 function PackageCard({title, description, href}) {
   return (

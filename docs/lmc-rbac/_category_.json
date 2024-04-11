@@ -1,8 +1,0 @@
-{
-  "label": "LmcRbac",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Role-based access control module to provide additional features on top of Laminas\\Permissions\\Rbac (formerly zfc-rbac)"
-  }
-}
