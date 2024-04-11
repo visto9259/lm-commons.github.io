@@ -101,6 +101,10 @@ const config = {
                 href: 'https://lm-commons.github.io/LmcMail/',
                 label: 'LmcMail'
               },
+              {
+                href: 'https://lm-commons.github.io/LmcRbac/',
+                label: 'LmcRbac'
+              },
             ]
           },
           {

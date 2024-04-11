@@ -51,7 +51,7 @@ const PackageList = [
         Role-based access control module to provide additional features on top of Zend\Permissions\Rbac
       </>
     ),
-    href: '/docs/lmc-rbac/introduction',
+    href: 'https://lm-commons.github.io/LmcRbac/',
   },
   {
     title: 'LmcAdmin',
