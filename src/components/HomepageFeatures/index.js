@@ -60,7 +60,7 @@ const PackageList = [
         LmcAdmin Module for Laminas Framework
       </>
     ),
-    href: '/docs/packages/lmc-admin/introduction',
+    href: 'https://lm-commons.github.io/LmcAdmin/',
   },
 ];
 

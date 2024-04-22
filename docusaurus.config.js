@@ -105,6 +105,10 @@ const config = {
                 href: 'https://lm-commons.github.io/LmcRbac/',
                 label: 'LmcRbac'
               },
+              {
+                href: 'https://lm-commons.github.io/LmcAdmin/',
+                label: 'LmcAdmin'
+              },
             ]
           },
           {
