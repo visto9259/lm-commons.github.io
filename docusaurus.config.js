@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LM Commons',
-  tagline: 'Community developed packages for the Laminas MVC',
+  tagline: 'Community developed packages for Laminas MVC and Mezzio',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
