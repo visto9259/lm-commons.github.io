@@ -164,11 +164,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="row">
           {PackageList.map((props, idx) => (
-            <>
-
-            <PackageCard key={idx} {...props} />
-
-            </>
+            <PackageCard key={props.title} {...props} />
           ))}
         </div>
       </div>
