@@ -79,11 +79,11 @@ const config = {
           {
             to: '/blog',
             label: 'Blog',
-            position: 'left'
+            position: 'right'
           },
           {
             type: 'dropdown',
-            label: 'Packages',
+            label: 'Components',
             items: [
               {
                 href: 'https://lm-commons.github.io/LmcCors/',
@@ -113,9 +113,9 @@ const config = {
           },
           {
             href: 'https://github.com/lm-commons',
-            label: 'GitHub',
+            //label: 'GitHub',
             position: 'right',
-          },
+            className: 'header-github-link',          },
         ],
       },
       footer: {
