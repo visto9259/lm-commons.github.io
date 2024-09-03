@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'LM Commons',
-  tagline: 'Community developed packages for Laminas MVC and Mezzio',
+  title: 'LM-Commons',
+  tagline: 'Community developed components and starter kits for Laminas MVC and Mezzio',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -50,6 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/lm-commons/tree/master/',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -63,6 +64,19 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/LMC-social-card.jpg',
+      colorMode: {
+        disableSwitch: true,
+        defaultMode: 'light'
+      },
+      /*
+      announcementBar: {
+        id: 'new_version_lmcrbac',
+        content: "<h1 style='font-size: 120%'><strong>New versions of LmcRbac and LmcRbacMvc are available</strong></h1>",
+        isCloseable: false,
+        //backgroundColor: 'lightgray'
+      },
+
+       */
       navbar: {
         title: 'LM-Commons',
         logo: {
@@ -72,15 +86,22 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'mainSidebar',
+            sidebarId: 'components',
             position: 'left',
-            label: 'Docs',
+            label: 'Components',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'starterKits',
+            position: 'left',
+            label: 'Starter Kits',
           },
           {
             to: '/blog',
             label: 'Blog',
             position: 'right'
           },
+          /*
           {
             type: 'dropdown',
             label: 'Components',
@@ -111,6 +132,8 @@ const config = {
               },
             ]
           },
+
+           */
           {
             href: 'https://github.com/lm-commons',
             //label: 'GitHub',
@@ -149,11 +172,18 @@ const config = {
               {
                 label: 'Disclaimer',
                 to: 'disclaimer',
-              }
+              },
+              /*
+              {
+                label: 'Privacy',
+                to: 'privacy',
+              },
+
+               */
             ],
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} LM-Commons Organization. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} LM-Commons Organization.<br><span style="font-size:75%">Built with Docusaurus</span>`,
       },
       prism: {
         theme: prismThemes.github,
