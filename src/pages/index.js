@@ -1,7 +1,7 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-import {HomepageHeader, HomepageFeatures} from "@site/src/Components";
+import {HomepageHeader, HomepageFeatures} from "@site/src/components";
 
 /*
 function HomepageHeader() {
