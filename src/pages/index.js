@@ -1,12 +1,9 @@
-import clsx from 'clsx';
-//import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
+import {HomepageHeader, HomepageFeatures} from "@site/src/components";
 
+/*
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -21,11 +18,13 @@ function HomepageHeader() {
   );
 }
 
+ */
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={siteConfig.title}
       description="Community developed packages for Laminas">
       <HomepageHeader />
       <main>

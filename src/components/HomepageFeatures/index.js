@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 import {PackageList} from "./PackageList";
 import {PackageCard} from "./PackageCard";
 
-export default function HomepageFeatures() {
+export function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">

@@ -1,24 +1,26 @@
 export const PackageList= [
+
   {
-    title: 'LmcUser',
+    title: 'User Management',
     description: (
       <>
-        LmcUser is a user registration and authentication module for Laminas MVC. LmcUser provides the foundations for
+        User registration and authentication module for Laminas MVC. LmcUser provides the foundations for
         adding user authentication and registration to your Laminas site.<br/>
         It is designed to be very simple and easy to extend.
       </>
     ),
-    href: 'https://lm-commons.github.io/LmcUser/',
+    href: '/docs/Components/user-management',
   },
   {
-    title: 'LmcRbac',
+    title: 'Roles and Permissions',
     description: (
       <>
-        Role-based access control module to provide additional features on top of Laminas\Permissions\Rbac
+        Components to add roles and permissions to your Laminas MVC and Mezzio applications.
       </>
     ),
-    href: 'https://lm-commons.github.io/LmcRbac/',
+    href: '/docs/Components/roles-permissions',
   },
+  /*
   {
     title: 'LmcRbacMvc',
     description: (
@@ -29,32 +31,42 @@ export const PackageList= [
     ),
     href: 'https://lm-commons.github.io/LmcRbacMvc/',
   },
+
+   */
   {
-    title: 'LmcCors',
+    title: 'Cross Origin Resource Sharing',
     description: (
       <>
-        LmcCors is a simple Laminas MVC module that helps you to deal with Cross-Origin Resource Sharing (CORS).
+        A simple Laminas MVC module that provides support to handle Cross-Origin Resource Sharing (CORS).
       </>
     ),
-    href: 'https://lm-commons.github.io/LmcCors/',
+    href: '/docs/Components/cors',
   },
   {
-    title: 'LmcMail',
+    title: 'Administration',
     description: (
       <>
-        LmcMail is an email service module that provides the ability to use the View Manager of a Laminas MVC
-        application and the installed View Helper plugins to render HTML emails.
+        A framework to implement admin modules for Laminas MVC applications.
       </>
     ),
-    href: 'https://lm-commons.github.io/LmcMail/',
+    href: '/docs/Components/administration',
   },
   {
-    title: 'LmcAdmin',
+    title: 'Utilities',
+    description: (
+      <p className="text--center">
+        Various utilities
+      </p>
+    ),
+    href: '/docs/Components/utilities',
+  },
+  {
+    title: 'Starter Kits',
     description: (
       <>
-        Admin framework for Laminas MVC
+        Starter Kits that provide a all-batteries included starting point for Laminas MVC using LM-Commons components
       </>
     ),
-    href: 'https://lm-commons.github.io/LmcAdmin/',
+    href: '/docs/StarterKits/introduction',
   },
 ];
