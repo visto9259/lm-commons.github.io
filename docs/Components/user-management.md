@@ -3,7 +3,7 @@ sidebar_position: 1
 title: User Management
 ---
 
-## LmcUser
+## [LmcUser](https://lm-commons.github.io/LmcUser)
 LmcUser is a user registration and authentication module for Laminas MVC.
 LmcUser provides the foundations for adding
 user authentication and registration to your Laminas MVC application. It is designed to be very

@@ -3,8 +3,8 @@ sidebar_position: 3
 title: Cross Origin Resource Sharing
 ---
 
-## LmcCors
-[LmcCors](https://lm-commons.github.io/LmcCors) is a simple Laminas MVC module that 
+## [LmcCors](https://lm-commons.github.io/LmcCors)
+LmcCors is a simple Laminas MVC module that 
 provides support to handle Cross-Origin Resource Sharing (CORS).
 
 ![Latest Stable Version](https://poser.pugx.org/lm-commons/lmc-cors/v)

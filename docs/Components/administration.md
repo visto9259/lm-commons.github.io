@@ -3,10 +3,10 @@ sidebar_position: 4
 title: Administration
 ---
 
-## LmcAdmin
+## [LmcAdmin](https://lm-commons.github.io/LmcAdmin)
 
-[LmcAdmin](https://lm-commons.github.io/LmcAdmin) is a low-level module that helps Laminas MVC Framework developers to 
-create an admin interface. 
+LmcAdmin is a low-level module that helps Laminas MVC Framework developers  
+create admin interfaces. 
 
 The module allows to have a uniform layout, navigation structure and routing scheme. You can create controllers routed
 as a child of LmcAdmin, so you can easily change the (root) url, access control and other properties. 

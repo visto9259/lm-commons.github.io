@@ -3,9 +3,9 @@ sidebar_position: 5
 title: Utilities
 ---
 
-## LmcMail
+## [LmcMail](https://lm-commons.github.io/LmcMail)
 
-[LmcMail](https://lm-commons.github.io/LmcMail) is an email service module that provides the ability to use the View Manager of a Laminas MVC application
+LmcMail is an email service module that provides the ability to use the View Manager of a Laminas MVC application
 and the installed View Helper plugins to render HTML emails.
 
 ![Version](https://poser.pugx.org/lm-commons/lmc-mail/v)

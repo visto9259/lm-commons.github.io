@@ -5,8 +5,8 @@ title: Roles and Permissions
 
 LM-Commons provides components to add roles and permissions to your application.
 
-## LmcRbac
-[LmcRbac](https://lm-commons.github.io/LmcRbac) provides the authorization services to implement role-based access control on top of 
+## [LmcRbac](https://lm-commons.github.io/LmcRbac)
+LmcRbac provides the authorization services to implement role-based access control on top of 
 Laminas\Permissions\Rbac.
 
 Roles and permissions can be defined in simple local configuration file, suitable for applications with
@@ -18,9 +18,9 @@ a small set of roles and permissions, or in database for application with larger
 
 [Documentation](https://lm-commons.github.io/LmcRbac)
 
-## LmcRbacMvc
+## [LmcRbacMvc](https://lm-commons.github.io/LmcRbacMvc)
 
-[LmcRbacMvc](https://lm-commons.github.io/LmcRbacMvc) is a companion component that extends the functionality 
+LmcRbacMvc is a companion component that extends the functionality 
 of LmcRbac to provide Role-based Access Control (RBAC) for Laminas MVC applications.
 
 LmcRbacMvc provides:
