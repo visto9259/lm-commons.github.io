@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Build and Deploy to GitHub Pages on Release
 
 defaults:
   run:
@@ -6,10 +6,13 @@ defaults:
     working-directory: ./docs
 
 on:
-  push:
-    branches:
-      - 'master'
+#  push:
+#    branches:
+#      - 'main'
   workflow_dispatch:
+  milestone:
+    types:
+      - "closed"
 
 
 jobs:
