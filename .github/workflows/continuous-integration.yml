@@ -1,4 +1,4 @@
-name: Build GitHub Pages No Deploy
+name: Test Build GitHub Pages
 
 defaults:
   run:
@@ -6,7 +6,7 @@ defaults:
     working-directory: ./docs
 
 on:
-  pull_request:
+#  pull_request:
   push:
 
 jobs:
