@@ -68,15 +68,14 @@ const config = {
         disableSwitch: true,
         defaultMode: 'light'
       },
-      /*
+
       announcementBar: {
-        id: 'new_version_lmcrbac',
-        content: "<h1 style='font-size: 120%'><strong>New versions of LmcRbac and LmcRbacMvc are available</strong></h1>",
+        id: 'mvc-maintenance-only',
+        content: "<h1 style='font-size: 120%'><strong>Many LMC Packages are now Maintenance-only. <a href='/blog/MVC-maintenance-only'>Details</a> </strong></h1>",
         isCloseable: false,
-        //backgroundColor: 'lightgray'
+        backgroundColor: 'lightyellow'
       },
 
-       */
       navbar: {
         title: 'LM-Commons',
         logo: {
