@@ -33,7 +33,7 @@ LmcRbacMvc provides:
 
 :::warning
 LmcRbacMvc is now in Maintenance-only.
-See this [blog post](/blog/2025-07-01-mvc-maintanance-only.md)
+See this [blog post](/blog/MVC-maintenance-only)
 :::
 
 ![Version](https://poser.pugx.org/lm-commons/lmc-rbac-mvc/version)

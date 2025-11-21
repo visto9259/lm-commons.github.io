@@ -17,7 +17,7 @@ in the admin interface with menus, breadcrumbs and other links.
 
 :::warning
 LmcAdmin is now in Maintenance-only.
-See this [blog post](/blog/2025-07-01-mvc-maintanance-only.md)
+See this [blog post](/blog/MVC-maintenance-only)
 :::
 
 ![Latest Stable Version](https://poser.pugx.org/lm-commons/lmc-admin/v/stable)

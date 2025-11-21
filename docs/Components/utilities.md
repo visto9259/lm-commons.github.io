@@ -11,7 +11,7 @@ render HTML emails.
 
 :::warning
 LmcMail is abandoned.
-See this [blog post](/blog/2025-07-01-mvc-maintanance-only.md)
+See this [blog post](/blog/MVC-maintenance-only)
 :::
 
 ![Version](https://poser.pugx.org/lm-commons/lmc-mail/v)
