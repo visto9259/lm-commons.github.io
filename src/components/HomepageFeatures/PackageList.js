@@ -4,9 +4,9 @@ export const PackageList= [
     title: 'User Management',
     description: (
       <>
-        User registration and authentication module for Laminas MVC. LmcUser provides the foundations for
-        adding user authentication and registration to your Laminas site.<br/>
-        It is designed to be very simple and easy to extend.
+        <p>User registration and authentication module for Laminas MVC and Mezzio.</p>
+        <p>User management provides the foundations for adding user authentication and registration to your applications.</p>
+        <p>It is designed to be very simple and easy to extend.</p>
       </>
     ),
     href: '/docs/Components/user-management',
@@ -20,19 +20,6 @@ export const PackageList= [
     ),
     href: '/docs/Components/roles-permissions',
   },
-  /*
-  {
-    title: 'LmcRbacMvc',
-    description: (
-      <>
-        LmcRbacMvc is a role-based access control Laminas MVC module to provide additional
-        features on top of Laminas\Permissions\Rbac
-      </>
-    ),
-    href: 'https://lm-commons.github.io/LmcRbacMvc/',
-  },
-
-   */
   {
     title: 'Cross Origin Resource Sharing',
     description: (
@@ -41,6 +28,15 @@ export const PackageList= [
       </>
     ),
     href: '/docs/Components/cors',
+  },
+  {
+    title: 'Api Tools',
+    description: (
+      <>
+        Packages to provide components to help migrate applications that are running the Laminas Api Tools framework to the Mezzio framework.
+      </>
+    ),
+    href: '/docs/Components/api-tools',
   },
   {
     title: 'Administration',
@@ -64,9 +60,18 @@ export const PackageList= [
     title: 'Starter Kits',
     description: (
       <>
-        Starter Kits that provide a all-batteries included starting point for Laminas MVC using LM-Commons components
+        Starter Kits that provide a all-batteries included starting point for Laminas Mezzio applications using LM-Commons components
       </>
     ),
     href: '/docs/StarterKits/introduction',
+ },
+  {
+    title: 'Tutorials',
+    description: (
+      <>
+        Tutorials to come
+      </>
+    ),
+    href: '/docs/Tutorials/introduction',
   },
 ];
