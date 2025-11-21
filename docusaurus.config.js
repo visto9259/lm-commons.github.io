@@ -24,7 +24,6 @@ const config = {
   projectName: 'Docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -32,6 +31,12 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+  },
+
+  "markdown": {
+    "hooks": {
+      onBrokenMarkdownLinks: 'warn',
+    }
   },
 
   presets: [
@@ -96,43 +101,16 @@ const config = {
             label: 'Starter Kits',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'tutorials',
+            position: 'left',
+            label: 'Tutorials',
+          },
+          {
             to: '/blog',
             label: 'Blog',
             position: 'right'
           },
-          /*
-          {
-            type: 'dropdown',
-            label: 'Components',
-            items: [
-              {
-                href: 'https://lm-commons.github.io/LmcCors/',
-                label: 'LmcCors'
-              },
-              {
-                href: 'https://lm-commons.github.io/LmcRbacMvc/',
-                label: 'LmcRbacMvc'
-              },
-              {
-                href: 'https://lm-commons.github.io/LmcUser/',
-                label: 'LmcUser'
-              },
-              {
-                href: 'https://lm-commons.github.io/LmcMail/',
-                label: 'LmcMail'
-              },
-              {
-                href: 'https://lm-commons.github.io/LmcRbac/',
-                label: 'LmcRbac'
-              },
-              {
-                href: 'https://lm-commons.github.io/LmcAdmin/',
-                label: 'LmcAdmin'
-              },
-            ]
-          },
-
-           */
           {
             href: 'https://github.com/lm-commons',
             //label: 'GitHub',
@@ -147,8 +125,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Slack',
-                href: 'https://join.slack.com/t/lm-commons/shared_invite/zt-2gankt2wj-FTS45hp1W~JEj1tWvDsUHQ',
+                label: 'Discord',
+                href: 'https://discord.gg/nAAu7AhR',
               },
             ],
           },
