@@ -76,7 +76,7 @@ const config = {
 
       announcementBar: {
         id: 'mvc-maintenance-only',
-        content: "<h1 style='font-size: 120%'><strong>Many LMC Packages are now Maintenance-only. <a href='/blog/MVC-maintenance-only'>Details</a> </strong></h1>",
+        content: "<h1 style='font-size: 120%'><strong>Support for PHP 8.5 added to LMC Packages. <a href='/blog/PHP-8-5'>Details</a> </strong></h1>",
         isCloseable: false,
         backgroundColor: 'lightyellow'
       },
