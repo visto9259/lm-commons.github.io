@@ -3,26 +3,25 @@ name: Build and Deploy to GitHub Pages on Release
 defaults:
   run:
     shell: bash
-    working-directory: ./docs
+#    working-directory: ./
 
 on:
   workflow_dispatch:
-  pull_request:
-    types:
-      - closed
+#  pull_request:
+#    types:
+#      - closed
     
 
 
 jobs:
   deploy:
-#    if: github.event.pull_request.merged == true
     name: Build and Deploy to GitHub Pages
-    if: ${{ github.event.pull_request.merged == true || github.event == 'workflow_dispatch' }}
+#    if: ${{ github.event.pull_request.merged == true || github.event == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash
-        working-directory: ./docs
+#        working-directory: ./
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
