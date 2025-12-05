@@ -60,6 +60,9 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        googleTagManager: {
+          containerId: 'GTM-5PVZSCQ6'
+          },
       }),
     ],
   ],
@@ -138,6 +141,10 @@ const config = {
                 to: '/blog',
               },
               {
+                label: 'Maintenance status',
+                to: '/maintenance-status',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/LM-Commons',
               },
@@ -150,13 +157,14 @@ const config = {
                 label: 'Disclaimer',
                 to: 'disclaimer',
               },
-              /*
               {
                 label: 'Privacy',
                 to: 'privacy',
               },
-
-               */
+              {
+                label: 'Cookies Policy',
+                to: 'cookies-policy',
+              },
             ],
           }
         ],
