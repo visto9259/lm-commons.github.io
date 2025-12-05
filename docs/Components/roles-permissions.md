@@ -20,6 +20,23 @@ database for application with larger sets of roles and permissions.
 
 [Documentation](https://lm-commons.github.io/LmcRbac)
 
+## [LmcRbacMezzio](https://lm-commons.github.io/lmc-rbac-mezzio)
+
+LmcRbacMezzio provides middlewares to provide Role-based Access Control
+(RBAC) for Mezzio applications.
+
+LmcRbacMezzio provides:
+
+- Route guards to control access to route based on roles.
+- Strategies to handle unauthorized access, such as 403 response and redirection
+
+![Version](https://poser.pugx.org/lm-commons/lmc-rbac-mezzio/v)
+![Total Downloads](https://poser.pugx.org/lm-commons/lmc-rbac-mezzio/downloads)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Flm-commons%2Flmc-rbac-mezzio%2Fproperties%2Fvalues&query=%24%5B%3A1%5D.value&label=Maintenance%20Status)
+
+
+[Documentation](https://lm-commons.github.io/lmc-rbac-mezzio)
+
 ## [LmcRbacMvc](https://lm-commons.github.io/LmcRbacMvc)
 
 LmcRbacMvc is a companion component that extends the functionality of LmcRbac
@@ -41,8 +58,3 @@ See this [blog post](/blog/MVC-maintenance-only)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Flm-commons%2Flmcrbacmvc%2Fproperties%2Fvalues&query=%24%5B%3A1%5D.value&label=Maintenance%20Status)
 
 [Documentation](https://lm-commons.github.io/LmcRbacMvc)
-
-## lmc-rbac-mezzio (Coming soon)
-
-lmc-rbac-mezzio provides middlewares to provide Role-based Access Control
-(RBAC) for Mezzio applications.

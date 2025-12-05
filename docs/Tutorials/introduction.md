@@ -1,6 +1,4 @@
 ---
-title: Introduction
+title: To come
 sidebar_position: 1
 ---
-
-To come...
