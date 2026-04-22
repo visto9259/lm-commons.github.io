@@ -38,4 +38,15 @@ See this [blog post](/blog/MVC-maintenance-only)
 ## Lmc User Mezzio (Coming soon)
 
 lmc-user-mezzio provides middlewares to handle user management for Mezzio
-applications. It is a migration of the LmcUser package for Mezzio applications.
+applications. 
+
+It is a migration of the LmcUser package for Mezzio applications.
+
+### LmcUserMezzioAuthentication
+Lmc User authenticaiton adapter
+
+### LmcUserMezzio
+LmcUser for Mezzio
+
+### LmcUserRepositoryPDO
+PDO-based User Repository for LMC User Mezzio
